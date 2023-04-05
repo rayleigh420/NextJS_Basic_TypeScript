@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,6 +13,7 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code> <br />
           Starting NextJS 13 with Le Nhat Duy
+          <Link href='/about'>Go to About Page</Link>
         </p>
         <div>
           <a

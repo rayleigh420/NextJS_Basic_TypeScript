@@ -1,9 +1,12 @@
-export default function About() {
+import Link from "next/link"
+
+const About = () => {
     return (
-        <>
-            <h1>Hello from Le Nhat Duy</h1>
-        </>
+        <div>
+            <h1>About Page</h1>
+            <Link href='/'>Back to Home</Link>
+        </div>
     )
 }
 
-// export default About
+export default About
